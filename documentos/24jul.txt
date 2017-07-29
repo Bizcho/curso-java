@@ -1,0 +1,11 @@
+
+  FUNDAMENTOS DE I/O
+
+ propiedades
+ 
+ Propertie es una clase como un mapa que tiene una tabla con una llave y un valor
+
+source = input stream = reader
+sink = output stream = writer
+
+

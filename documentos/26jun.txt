@@ -1,0 +1,47 @@
+
+    PRIMITIVOS EN JAVA
+
+    int
+    short
+    double
+    float
+    long
+    byte
+    bolean
+    char
+
+-------------------------------------------------------------------------------
+
+    COMENTARIOS
+
+ [//] comentario sencillo, es decir, una sola linea
+
+ [/*] comentario multilenea termina con [*/] por convencion dentro de los comentarios se pone un *
+                                                                                                   
+ [/**] comentario de documentacion
+
+-------------------------------------------------------------------------------
+
+    SENTENCIAS, BLOQUES Y ESPACION EN BLANCO
+
+SENTENCIA: una sentencia es una sola instruccion que termina con un [;] (este
+puede ser de varias lineas y solo termina cuando hay un punto y coma
+
+BLOQUE: un bloque de codigo se define como un gruo de sentencias encerrados en llaves [{}]
+        (se pueden anidar boques dentro de bloques de codigo)
+
+--------------------------------------------------------------------------------
+
+    IDENTIFICADORES
+
+nombres que se les da alas variables, clases, o metodos
+pueden empezar con una letra con _ o con $
+
+--------------------------------------------------------------------------------
+
+literal por defecto del char
+literal por defecto de variables de referencia null
+
+para escribir numeros en exadecimal o en octal
+se debe poner un ceroantes del numero y luego solo digitos validos denrtro del 
+sisteama numerico deseado hasta el 7 en octal y hasta la f en exadecimal

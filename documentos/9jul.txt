@@ -1,0 +1,20 @@
+
+    Clases wrapper
+
+viendo a los primitivos como objetos
+
+metodos importantes
+
+xxxValue() no recibe argumentos, regresa un primitivo.
+
+parseXxx() Toma un String como argumento regrsa un primitivo, tira NumberFormatException
+
+valueOf() Toma un String, regresa un object Wrapper, tira NumberFormatException
+
+interned
+para aumentar el interned
+Djava.lang.Inreger.IntegerCache.hig=130
+
+   String constant pool
+
+es una zona de memoria como el interned que almacena las cadenas de carcarcteres y cuando una cadena es asignada a una referencia reviza si esta cadena ya existe y retorna la direccion de este objeto

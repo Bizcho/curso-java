@@ -1,0 +1,36 @@
+EXCEPCIONES Y ASSERCIONES
+
+aprenderemos a
+definir excepcion
+usar try catch y finaly
+describir las categorias de excepciones
+identificar excepcion comunes
+usar asserciones
+distiguir entre usos correcto e incorrecto de estas
+enable assertiones
+
+ checked exceptions
+
+pasan por razones ajenas al programa
+
+ unchecked exceptions
+
+pasan por que el programa no esta buien codificado
+
+el catch
+debe controlar el error mas espesifico al mas general
+
+finally se executa  cuando
+
+el bloque try termine su execucion sin problemas
+cuando try encuentre una excepcion y esta sea manejada por  un catch
+cuando try encuentre una excepcion y esta no sea manejada por  un catch
+
+excepciones comunes
+
+NullPointerException
+SecurityException
+etc
+
+
+

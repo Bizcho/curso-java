@@ -1,0 +1,30 @@
+
+    SOBRESCRITURA DE MTODOS
+
+ una suclaase puede modificar el comportamiento heredado de su clase padre
+
+ la lista de argumentos del metodo debe ser la misma exactamente
+
+ el tipo de retorno debe ser el mismo o una subclase del tipo de retorno declarado originalemtne
+
+ el tipo de acceso no puede ser menos restricitivo
+
+ no se puede sobre escribir un metodo final
+
+ si el metodo es estatico en la subclase se debe coservar
+
+    LA PALABRA SUPER
+
+ funciona como this pero se refire a la clase padre
+
+ super y this hacen referencia a un objeto y no tienen acceso a componentes marcados como static
+
+    POLIMORMISMO
+
+ una referencia puede apuntar a objetos de su misma clase o de otras subclases
+
+las referencias pueden ser declaradas de una superclase del objero a referenciar.
+
+    INVOCACION DE METODOS VIRTUAL
+
+ permite llamar metodos sobreescritos en la subclaces con una referencia de la superclase

@@ -1,0 +1,9 @@
+
+	CONSOLE AND FILE I/O
+
+  objetivos:
+  leer datos desde la consola
+  escribir datos en la consola
+  describir archivos y directorios
+
+  

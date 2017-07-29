@@ -1,0 +1,39 @@
+MODULO 1
+---Objetivos del curzo---
+	crear aplicaciones con un nivel profecional orientado a objetos. Utilizando encapsulamiento, herencia y exceciones.
+
+---Empezando---
+	¿que es Java?
+   java es un programa, es un ambiente de desarrollo, ambiente de aplicacion, ambienete de deployment.
+
+aplet: pequeña aplicacion que corre en un navegador web
+
+java quiere competir con C++, asi que busco ser multplataforma cosa que C no puede hacer.
+se quiere que el lenguage sea sencillo, limpio y claro.
+lograr mas de un hilo de ejecucion simultaneos.
+carga dinamica de clases, a realizar unimport de una libreria, java reviza las clases o metodos necesarios.
+mejora la seguridad.
+recolector de basura.
+
++++ java vitual machine +++
+
+maquina virtual machine
+	interprete
+	cargador de clases
+	verificador de codigoss de Bytes
+harware
+	Sistema Operativo
+
+JVM contiene
+set de instrucciones CUP
+set de registros
+archvo de clases
+stack
+recolector de basura
+area de memoria
+reporte de errores fatales
+
+carga, verifica y ejecuta
+
+
+

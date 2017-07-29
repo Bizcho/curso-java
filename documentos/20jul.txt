@@ -1,0 +1,28 @@
+
+    COLECCIONES
+
+descrinir colecciones
+describir el propocito general de implementacion de interfaces
+examninar la interfaz map
+
+coleccion.- grupo de bjetos llamados elementos. la implemntacion decide si tiene un orden especifico o si se permiten duplicados.
+set.- desordenada no permite duplicados
+list.- ordenada y permite duplicados
+
+listas: listoas de cosas
+sets: cosas unicas
+maps: cosas con unico ID
+queues: cosas que se forman para ser procesadas
+
+-----------------------------------------------------------------------------------
+
+interfaz collection
+
+que podemos hacer?
+
+agregar objetos
+eliminiar objetos
+buscar objetos
+recuperar objetos
+recorrer o iterar la coleccion
+

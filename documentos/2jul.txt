@@ -1,0 +1,14 @@
+    
+    ARREGLOS
+
+para que son los arreglos?
+  funcionan para trabajar con operaciones matriziales
+
+  agruppientos de datoos de un mismo tipoestos se declaran de la siguiente manera:
+
+  char c[];
+  Point p[];
+
+  char[] c;
+  Point[] p;
+

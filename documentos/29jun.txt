@@ -1,0 +1,31 @@
+
+    REPASO
+
+ VARIABLES DE REFERENCA: es un control que nos permite manejar un objeto dentro
+de memoria. <[NO ES UN OBJETO]>
+
+-------------------------------------------------------------------------------
+
+    PASO POR VALOR O PASO POR REFERENCIA
+
+ cuando se tiene un metodo como:
+
+             public satatic MyDate addDays(int moreDays, MyDate date){
+                 //cuerpo
+             }                                          
+
+ el metodo pasa por valor el int "moreDays" y por referencia la variable "date"
+
+
+    THIS
+
+ en un metodo apunta al objeto que mando llamar al metodo
+ en un cnstructor apunta al objeto que se esta creando
+
+-------------------------------------------------------------------------------
+
+     CONVENCIONES
+
+   paquetes: minusculas
+   clases: incio mayuscula, y regla del camello
+   variables: inicio minuscula, y regla del camello

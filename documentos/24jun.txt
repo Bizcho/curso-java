@@ -1,0 +1,115 @@
+Descargar
+http://bit.ly/1TNsuZB
+
+--Programacion orientada a objetos--
+
+entender analisis y sise¤o de software
+
+analisis se enfoca en el ¨que? se definen elementos como:
+        usuarios
+        dispositivos
+        sistemas
+        actividades
+        comportamientos
+
+el dise¤o se concentra en el ¨Como? se definen las actividades
+        se crean modelos de dise¤o como el UML
+
+abstraccion:proceso de simplificar un proceso complejo encandose tan solo a los aspecos relevantes para la solucion
+en el desarrollo de software esoto significa centrarse en lo que es y hace un objeto antes de decidir como deberia de ser implementado
+
+"enfasis en el ¨que hace? mas que en el ¨como lo hace?
+
+abstraccion conseptos:
+funciones- escribe un algoitmouna vez  usalo muchas
+
+objetos- grupo de atributos u comportamientos que estan dentro de una clases
+
+API's- gran grupo de objetos que describen modelos complejos
+
+
+
+[clase != objeto]
+
+una clase es el prototipo de varios objetos
+
+una clase describe un objeto:
+        describe la informacion que debe contener
+        describe como se debe comportar
+
+-----------------------------------------------------------------------------
+¨como se crea una clase?
+
+<modificador> class <nombre>{
+        <declaracion de atributos>
+        <decaracion de constructores>
+        <declaracion de metodos>
+}
+
+
+
+ ejemplo
+
+public class Vehicle{
+        prvate double maxLoad;
+        public void setMaxLoad(double value){
+                maxLoad = value;
+        }
+}
+
+-------------------------------------------------------------------------------
+Modificador de acceso, define la visibilidad o accesibilida a una clase
+
+-------------------------------------------------------------------------------
+
+declarando atributos
+
+[modificador] [typo] [nombre] { = [valor inicial] }
+
+-------------------------------------------------------------------------------
+
+declarando metodos
+
+[modificador] [tipo de retorno] [nombre] ( [argumentos] ) {
+        [cuerpo]
+}
+
+-------------------------------------------------------------------------------
+
+instanciando objetos
+
+[clase] [nombre] = new [constructor];
+
+------------------------------------------------------------------------------
+
+getters & setters : metodos acsesores
+
+
+ACOPLAMIENTO Y COHECION
+
+acoplamiento debil: minima dependencia de un objeto a otros
+
+cohecion: cada clase haga lo que debe hacer
+contener todas las funcionalidades necesarias para una clase y no mas
+
+el objetivo es mantener la cohecion lo mas alta dentro del dise¤o
+
+
+          acplamiento debil o estrecho
+
+
+
+IMPLEMANTAR POO
+
+fuerte encaplsulamiento
+debil acoplamiento
+alta cohecion
+
+alta cohecion <=> debil acoplamiento
+
+
+
+
+
+
+                     

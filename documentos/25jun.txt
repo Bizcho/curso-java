@@ -1,0 +1,104 @@
+Descargar 
+http://bit.ly/1LsHQ2b
+
+--------------------------------------------------
+         repaso de la clase anterior                    
+--------------------------------------------------
+                     
+ENCAPSULAMIENTO      
+                     
+                     
+--------------------------------------------------
+|                    MyDate                      |        
+--------------------------------------------------
+|                                                |
+|    +day : int                                  |
+|    +month : int                                |
+|    +year : int                                 |
+|                                                |
+--------------------------------------------------
+|                                                |
+--------------------------------------------------
+
+
+  day = 32;
+//invalid day
+
+  month = 2;
+  day = 30;
+//plausible but wrong
+
+     version con encapsulamiento
+      ----------------------------
+      |                          |
+      |  MyDate                  |
+      |                          |
+      ----------------------------
+      |                          |
+      |  -day : int              |
+      |  -month : int            |
+      |  -year : int             |
+      |                          |
+      ----------------------------
+      |                          |
+      |  +getDay() : int         |
+      |  +getMonth() : int       |
+      |  +getYear() : int        |
+      |  +setDay() : boolean     |
+      |  +setMonth() : boolean   |
+      |  +setYear() : boolean    |
+      |                          |
+      ----------------------------
+
+Se denomina encapsulamiento al ocltamiento del estado, es decir, de los datos
+propios de un objeto de manera que solo se puede cambiar medienta las 
+operaciones definidas para ese objeto.
+
+EL ENCAPSULAMIENTO garantiza la integridar de los datos que contiene un objeto
+
+
+
+ los metodos acsesores definen REGLAS DE NEGOSIOS 
+
+
+
+
+DECLARACION DE CONSTRUCTORES
+
+      <modificador><nombre de la clase>(<argumentos>){
+                <instrucciones>
+      }
+
+
+
+
+CONSTRUCTOR DEFAULT
+ todas las clases tienen por lo menos un construnctor. si el programador omite
+el codigo del construntor Java presenta el construnctor default:
+
+        este no toma argumentos.
+        este no tiene cuerpo.
+
+ SINTXIS DE CODIGO FUENTE
+
+[<package_declaration>]
+<impot_declaration>
+<class_declaracion>
+
+PALABRA "package" 
+
+debe de ser la primera sentcia del archivo
+solo debe de haber uno
+la clase se manda a paquete default si no se declara
+
+PALABRA "import"
+
+precede las declaraciones de clases
+le dice como encontrar las clases al compilador
+
+
+                                                                        
+  al importar a.* se importan las clases dentro de a pero no dentro de  
+  sub carpetas de a [CUIDADO]                                           
+                                                                        
+

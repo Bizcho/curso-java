@@ -1,0 +1,43 @@
+MODULO 7
+
+   OBJETIVOS
+
+ crear cariables metodos e inicializables staticos
+
+ crear atributos finales
+
+ crear clases enumeradas
+
+ crear interfaces
+
+   RELEVANCIA
+
+ ¿como se crea una constante?
+
+ ¿como se declara una dato que es comprtido por todas las instancias de cierta clase?
+
+ ¿como se evita que un metodo sea sobre escrito o que sea hredado?
+
+ LA PALABRA static
+
+ La palabra reservada static se utilza para modificar variables metodos y clases anidadas
+
+   INICIALIZADORES ESTATICOS
+
+ SE Ejecutan una vez cuando la clase es creada
+
+por convencion
+
+atributos
+bloques de inicialiacion
+cnstructores
+metodos
+
+
+   FINAL
+
+ el modificador final en:
+metodos evita que sea sobreescrito
+clases evita que tenha herencia
+variables las convierte en constantes
+

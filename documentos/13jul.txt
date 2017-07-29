@@ -1,0 +1,46 @@
+IMPORTES ESTATICOS
+
+import static <pkg_list>.<class_name>.<member_name>
+
+esto importa los miembros estaticos de la clase
+cuidado con memoria!
+
+
+-----------------------------------------------------------------------------------
+por definicion la constantes de un enum son public staticf final
+
+-----------------------------------------------------------------------------------
+
+clases abstractas
+
+
+estas no ueden ser implementadas
+
+-----------------------------------------------------------------------------------
+interfaces
+
+-----------------------------------------------------------------------------------
+CLASES INTERNAS
+
+java permite definir un clase dentron de otra clase. tal clase se llama clase anidada y se ilustra aqui:
+
+una clase interna tiene accseso a todos los miembros de outer
+
+si estas no son static no pueden contener miembros staticos dentro de la clase interna
+-----------------------------------------------------------------------------------
+CLASES LOCALES
+
+van dentro de un metodo
+pueden aceder a miembros de clase
+pueden acceder a variables locales siempre y cuando sea final
+esta no puede serstatic
+puede tener miembros staticos siempre y cauando sean final(solo primitivos y strings)
+
+----------------------------------------------------------------------------------
+CLASES ANONIMAS
+
+permiten hacer codigo mas eficiente
+permiten  declarar e instanciar una clase al mismo tiempo
+son commo clases locales excepto que no tienen nombre
+respeta a las reglas de las clases locales
+
